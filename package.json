@@ -1,0 +1,28 @@
+{
+  "name": "livephoto-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.docs.config.ts",
+    "dev:lib": "vite build --config vite.lib.config.ts --watch",
+    "build": "npm run build:lib && npm run build:docs",
+    "build:lib": "vite build --config vite.lib.config.ts",
+    "build:docs": "vue-tsc -b && vite build --config vite.docs.config.ts",
+    "preview": "vite preview --config vite.docs.config.ts",
+    "publish:lib": "cd packages/livephoto-vue && npm publish"
+  },
+  "dependencies": {
+    "livephoto-vue": "^1.0.1",
+    "livephotoskit": "^1.5.6",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}
