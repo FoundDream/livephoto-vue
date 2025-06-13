@@ -4,9 +4,9 @@
 
 ## 🌟 特性
 
-- 🍎 **双模式支持** - Apple官方LivePhotosKit + 自定义实现
+- 🍎 **双模式支持** - Apple 官方 LivePhotosKit + 自定义实现
 - 📱 **移动端优化** - 完美适配移动设备，支持触摸交互
-- ⚡ **开箱即用** - TypeScript支持，简单配置即可使用
+- ⚡ **开箱即用** - TypeScript 支持，简单配置即可使用
 - 🎨 **高度定制** - 支持自定义样式和交互行为
 - 📦 **轻量级** - 最小化依赖，优化包体积
 
@@ -37,7 +37,7 @@ import { LivePhoto } from 'livephoto-vue'
 
 ## 📚 文档
 
-- [在线文档和演示](https://your-username.github.io/livephoto-vue)
+- [在线文档和演示](https://livephoto-vue.vercel.app/)
 - [API 参考](/packages/livephoto-vue/README.md)
 
 ## 🏗️ 项目结构

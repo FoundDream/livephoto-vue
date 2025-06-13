@@ -12,7 +12,7 @@
           <li><router-link to="/docs">文档</router-link></li>
           <li><router-link to="/examples">示例</router-link></li>
           <li>
-            <a href="https://github.com/your-username/livephoto-vue" target="_blank">
+            <a href="https://github.com/FoundDream/livephoto-vue" target="_blank">
               GitHub
             </a>
           </li>
