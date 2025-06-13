@@ -32,7 +32,7 @@
     "type": "git",
     "url": "https://github.com/FoundDream/livephoto-vue.git"
   },
-  "homepage": "https://your-username.github.io/livephoto-vue",
+  "homepage": "https://livephoto-vue.vercel.app",
   "peerDependencies": {
     "vue": "^3.0.0"
   },
